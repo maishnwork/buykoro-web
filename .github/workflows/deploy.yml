@@ -23,7 +23,7 @@ jobs:
           node-version: 22
 
       - name: Extract Website ZIP
-        run: unzip -q buykoro-web.zip -d app
+        run: unzip -q BUYKORO-GITHUB-PAGES-FIX.zip -d app
 
       - name: Install Dependencies
         run: npm install --prefix app
