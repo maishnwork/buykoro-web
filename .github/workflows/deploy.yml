@@ -26,7 +26,7 @@ jobs:
         run: unzip -q BUYKORO-GITHUB-PAGES-FIX.zip -d app
 
       - name: Install Dependencies
-        run: npm install --prefix app
+        run: npm install --legacy-peer-deps --prefix app
 
       - name: Build Website
         run: npm run build --prefix app -- --base=/buykoro-web/
